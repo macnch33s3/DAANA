@@ -11,8 +11,8 @@ df = pd.DataFrame(daten)
 df
 
 #%% Aufgabe 1: Anzahl der Produkte
-
-
+print(df.count("coulumns"))
+print()
 #%% Aufgabe 2: Produkt mit dem höchsten Umsatz
 
 
