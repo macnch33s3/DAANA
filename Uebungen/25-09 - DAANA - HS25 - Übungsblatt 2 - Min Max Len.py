@@ -8,14 +8,17 @@ daten = {
 }
 
 df = pd.DataFrame(daten)
+print(df)
+print()
 df
 
 #%% Aufgabe 1: Anzahl der Produkte
-print(df.count("coulumns"))
-print()
+Anzahl_Produkte = df["Produkt"].count()
+print(Anzahl_Produkte)
 #%% Aufgabe 2: Produkt mit dem höchsten Umsatz
-
-
+max_Umsatz = df.sort_values(by="Umsatz")
+print(df.loc[2, "Umsatz"])
+print()
 #%% Aufgabe 3: Produkt mit dem niedrigsten Umsatz
 
 
