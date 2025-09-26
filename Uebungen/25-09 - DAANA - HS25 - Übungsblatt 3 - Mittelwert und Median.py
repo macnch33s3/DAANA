@@ -12,9 +12,16 @@ autos = pd.DataFrame({
 
 autos
 
-#%% Aufgabe 1: Durchschnitt der Leistungen berechnen
 
+#%% Aufgabe 1: Durchschnitt der Leistungen berechnen
+print(autos)
+mittel = autos["Leistung_PS"].mean()
+print()
+print(mittel)
+print()
 #%% Aufgabe 2: Median der Leistungen berechnen
+median = autos["Leistung_PS"].median()
+print(median)
 
 #%% Aufgabe 3: Auto mit der niedrigsten Leistung finden
 
