@@ -77,10 +77,13 @@ klassenspiegel = pd.DataFrame({
     'Motivation': motivation
 })
 
-klassenspiegel
+df = klassenspiegel
 
 #%% Aufgabe 1: Größte Person
-
+print(df)
+groesste_Person = df.loc[df["koerpergroessen"].idxmax()]
+print(groesste_Person)
+print()
 #%% Aufgabe 2: Spannweite der Körpergrößen
 
 #%% Aufgabe 3: Mittelwert und Median der Körpergrößen
