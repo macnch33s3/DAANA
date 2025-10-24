@@ -96,9 +96,8 @@ uv run python scripts/analyse.py
 1. Clone repository
 2. Run `uv sync`
 3. Test environment via `uv run jupyter notebook`
-4. Explore `Fallstudie_Rettungswesen` or `Uebungen`
-5. Build your own case under `own_case`
-6. Extend or automate via scripts or scheduled jobs
+4. Build your own case under `own_case`
+5. Extend or automate via scripts or scheduled jobs
 
 ## 🤖 Future Enhancements
 - CLI for non-interactive execution
